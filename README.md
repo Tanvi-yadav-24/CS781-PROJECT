@@ -23,7 +23,6 @@ Many gaps between methods are small compared with the noise of the small evaluat
 ```text
 CS781-Capstone-Legal-Language-Model/
 ├── README.md
-├── CS781-CP-Kavya-Jain-240534-report.pdf
 ├── tokenizer/
 │   └── README.md
 ├── Phase-1-Language-Model/        submission_01 ... submission_05
