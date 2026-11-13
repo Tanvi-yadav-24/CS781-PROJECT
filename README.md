@@ -1,9 +1,5 @@
 # CS781 Legal AI Capstone: In-House Legal Intelligence System
 
-**Author:** Tanvi Yadav (roll number 2401094)  
-**Course:** CS781 Capstone Project, Indian Institute of Technology Kanpur  
-**Report:** [`CS781-CP-Tanvi-Yadav-241094-report.pdf`](CS781-CP-Tanvi-Yadav-241094-report.pdf)
-
 A confidential, self-hosted legal NLP pipeline built under the capstone rules: no pretrained weights and only the official Indian legal data (`Exploration-Lab/CS-781-Capstone` on Hugging Face). Phase 1 trains four decoder-only language models of about 50M parameters from scratch; Phases 2 to 7 adapt those checkpoints to six legal tasks, with every fine-tuning method (LoRA, rsLoRA, LoRMA, QLoRA, IA3, BitFit, adapters, gradual unfreezing, knowledge distillation) written in plain PyTorch. All runs used a free Kaggle Tesla T4.
 
 ## Results (best official run per phase)
